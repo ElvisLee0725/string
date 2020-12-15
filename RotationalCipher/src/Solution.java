@@ -2,7 +2,7 @@ public class Solution {
     public static void main(String[] args) {
         String input1 = "Zebra-493?";
         String input2 = "abcdefghijklmNOPQRSTUVWXYZ0123456789";
-        System.out.print(new Solution().rotationalCipher(input2, 39));
+        System.out.println(new Solution().rotationalCipher(input1, 3));
     }
 
     // Iterate each characters in the array, check if it's a uppercase, lowercase or number?
@@ -18,13 +18,13 @@ public class Solution {
         char[] arr = input.toCharArray();
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] >= 'A' && arr[i] <= 'Z') {
-                char fac = (char) (rotationFactor % 26);
+                int fac = rotationFactor % 26;
                 arr[i] = arr[i] + fac > 'Z' ? (char) (arr[i] + fac - 'Z' + 'A' - 1) : (char) (arr[i] + fac);
             } else if (arr[i] >= 'a' && arr[i] <= 'z') {
-                char fac = (char) (rotationFactor % 26);
+                int fac = rotationFactor % 26;
                 arr[i] = arr[i] + fac > 'z' ? (char) (arr[i] + fac - 'z' + 'a' - 1) : (char) (arr[i] + fac);
             } else if (arr[i] >= '0' && arr[i] <= '9') {
-                char fac = (char) (rotationFactor % 10);
+                int fac = rotationFactor % 10;
                 arr[i] = arr[i] + fac > '9' ? (char) (arr[i] + fac - '9' + '0' - 1) : (char) (arr[i] + fac);
             }
         }
