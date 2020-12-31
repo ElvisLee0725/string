@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 // Given a List of words, return the words that can be typed using letters of alphabet on only one row's of American keyboard like the image below.
 
+// Iterate all input words, for each word, check if it can be typed in row 1, row 2, or row 3 on keyboard?
+// If so, add that word to result
+
 public class Solution {
     public static void main(String[] args) {
         String [] array = new String[]{"Hello", "Alaska", "Dad", "Peace"};
