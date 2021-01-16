@@ -12,9 +12,33 @@
 // "(())())" -> "(()())" or "(())()"
 
 
+import java.util.Deque;
+import java.util.LinkedList;
+
 public class Solution {
     public static void main(String[] args) {
-        System.out.print(new Solution().validParenthesesRecursion("(((((((abcd)))))))"));
+        System.out.print(new Solution().validParenthesesStack("(((((((abcd)))))))"));
+    }
+
+    public String validParenthesesStack(String s) {
+        int i = 0;
+        Deque<Character> stack = new LinkedList<>();
+        String res = "";
+        while(i < s.length()) {
+            if(s.charAt(i) != ')') {
+                stack.offerLast(s.charAt(i));
+            }
+            else {
+                String temp = "";
+                while(!stack.isEmpty() && stack.peekLast() != '(') {
+                    temp = stack.pollLast() + temp;
+                }
+                temp = "(" + temp + ")";
+                res = res + temp;
+            }
+            i++;
+        }
+        return res;
     }
 
     // Recursion:
@@ -30,46 +54,46 @@ public class Solution {
     // Case ')': Find a pair, return everything including a starting '(' and closing ')'
     // Case other: Add the current character
 
-    int index = 0;
-    public String validParenthesesRecursion(String s) {
-        String res = "";
-        while(index < s.length()) {
-            if(s.charAt(index) == '(') {
-                String temp = findPair(s);
-                if(temp.length() > 0) {
-                    res += temp;
-                }
-            }
-            else if(s.charAt(index) != ')') {
-                res += s.charAt(index);
-                index++;
-            }
-            else {
-                index++;
-            }
-        }
-
-        return res;
-    }
-
-    public String findPair(String s) {
-        index++;
-        String output = "";
-        while(index < s.length()) {
-            if(s.charAt(index) == '(') {
-                output += findPair(s);
-                index++;
-            }
-            else if(s.charAt(index) == ')') {
-                return "(" + output + ")";
-            }
-            else {
-                output += s.charAt(index);
-                index++;
-            }
-        }
-        return output;
-    }
+    //int index = 0;
+//    public String validParenthesesRecursion(String s) {
+//        String res = "";
+//        while(index < s.length()) {
+//            if(s.charAt(index) == '(') {
+//                String temp = findPair(s);
+//                if(temp.length() > 0) {
+//                    res += temp;
+//                }
+//            }
+//            else if(s.charAt(index) != ')') {
+//                res += s.charAt(index);
+//                index++;
+//            }
+//            else {
+//                index++;
+//            }
+//        }
+//
+//        return res;
+//    }
+//
+//    public String findPair(String s) {
+//        index++;
+//        String output = "";
+//        while(index < s.length()) {
+//            if(s.charAt(index) == '(') {
+//                output += findPair(s);
+//                index++;
+//            }
+//            else if(s.charAt(index) == ')') {
+//                return "(" + output + ")";
+//            }
+//            else {
+//                output += s.charAt(index);
+//                index++;
+//            }
+//        }
+//        return output;
+//    }
 
 //    public String validParentheses(String s) {
 //        if(s == null || s.length() == 0) {
