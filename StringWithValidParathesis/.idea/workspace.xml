@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d96d05de-4085-486c-b020-1ab391222577" name="Default Changelist" comment="" />
+    <list default="true" id="d96d05de-4085-486c-b020-1ab391222577" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../WordCountEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WordCountEngine/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +19,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="-167">
+              <caret line="61" column="40" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="40" />
               <folding>
-                <element signature="e#0#3647#0" expanded="true" />
+                <element signature="e#0#4390#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,8 +48,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1875" />
-    <option name="y" value="-53" />
+    <option name="x" value="-1733" />
+    <option name="y" value="44" />
     <option name="width" value="1612" />
     <option name="height" value="971" />
   </component>
@@ -57,7 +59,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,7 +76,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -125,9 +127,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1875" y="-53" width="1612" height="971" extended-state="0" />
+    <frame x="-1733" y="44" width="1612" height="971" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25605094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25923568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -158,10 +160,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="-167">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="40" />
           <folding>
-            <element signature="e#0#3647#0" expanded="true" />
+            <element signature="e#0#4390#0" expanded="true" />
           </folding>
         </state>
       </provider>
