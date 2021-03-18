@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59580f4a-79b3-489a-80c4-bd4bf1a25368" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="01831f4c-5159-4dd9-9c6c-82d4e5b27eec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../DecodeString/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DecodeString/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,13 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Soluiton.java">
+        <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-              <folding>
-                <element signature="e#0#1993#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -43,15 +40,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Soluiton.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1732" />
-    <option name="y" value="25" />
-    <option name="width" value="1612" />
-    <option name="height" value="967" />
+    <option name="x" value="-1739" />
+    <option name="y" value="39" />
+    <option name="width" value="1683" />
+    <option name="height" value="971" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -60,33 +57,27 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="DecodeString" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DecodeString" type="462c0819:PsiDirectoryNode" />
+              <item name="PartitionLabels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PartitionLabels" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="DecodeString" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DecodeString" type="462c0819:PsiDirectoryNode" />
+              <item name="PartitionLabels" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PartitionLabels" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DecodeString" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DecodeString" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Soluiton.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1615252494342" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616093251559" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -107,7 +98,7 @@
   <component name="RunManager">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Solution" />
-      <module name="DecodeString" />
+      <module name="PartitionLabels" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,31 +114,31 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="59580f4a-79b3-489a-80c4-bd4bf1a25368" name="Default Changelist" comment="" />
-      <created>1615148268933</created>
+      <changelist id="01831f4c-5159-4dd9-9c6c-82d4e5b27eec" name="Default Changelist" comment="" />
+      <created>1616092982274</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1615148268933</updated>
+      <updated>1616092982274</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1732" y="25" width="1612" height="967" extended-state="0" />
+    <frame x="-1739" y="39" width="1683" height="971" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968153" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -163,13 +154,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Soluiton.java">
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#1993#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="304">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
     </entry>
