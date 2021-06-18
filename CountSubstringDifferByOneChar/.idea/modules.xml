@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/string.iml" filepath="$PROJECT_DIR$/string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CountSubstringDifferByOneChar.iml" filepath="$PROJECT_DIR$/CountSubstringDifferByOneChar.iml" />
     </modules>
   </component>
 </project>
